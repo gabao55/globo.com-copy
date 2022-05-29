@@ -1,0 +1,316 @@
+body {
+  background-color: #ffffff;
+  font-family: "Encode Sans", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first-color {
+  color: #c4351a;
+}
+
+.second-color {
+  color: #1e4b9b;
+}
+
+.third-color {
+  color: #226866;
+}
+
+.fourth-color {
+  color: #51ab48;
+}
+
+.fifth-color {
+  color: #e3662b;
+}
+
+.sixth-color {
+  color: #f34635;
+}
+
+.seventh-color {
+  color: #f072ba;
+}
+
+.eighth-color {
+  color: #eb7d28;
+}
+
+.ninth-color {
+  color: #323333;
+}
+
+.tenth-color {
+  color: #aa4483;
+}
+
+.grey-color {
+  color: #666666;
+}
+
+.subtitle {
+  color: #c4170c;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.5px;
+  margin-top: 11px;
+  margin-bottom: 6px;
+}
+
+.title {
+  color: #2f3134;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #2f3134;
+}
+
+.logo-container {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  border-top: #f5f6f7 1px solid;
+  border-bottom: #f5f6f7 1px solid;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 40px;
+  width: 1250px;
+  font-size: 19px;
+}
+
+.content {
+  width: 1250px;
+  justify-content: center;
+  align-items: center;
+  margin: 35px auto;
+}
+
+.left-side {
+  width: 650px;
+  border-right: 1px #ebedef solid;
+  flex-direction: column;
+}
+
+.first-row {
+  width: 624px;
+  margin-right: 26px;
+  border-bottom: 1px #ebedef solid;
+}
+
+.header {
+  color: #c4160c;
+  font-size: 52px;
+  line-height: 67px;
+  margin-bottom: 29px;
+}
+
+.header-description {
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  color: #303134;
+}
+
+.second-row {
+  margin-right: 23px;
+  border-bottom: 1px #ebedef solid;
+}
+
+.left-side .article {
+  width: 193px;
+  margin-top: 25px;
+  margin-right: 24px;
+  margin-bottom: 36px;
+}
+
+.second-row .article:nth-child(3) {
+  margin-right: 0;
+}
+
+.third-row .article {
+  margin-bottom: 0;
+}
+
+.third-row .article:nth-child(3) {
+  margin-right: 0;
+}
+
+.left-side .article img {
+  widows: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+.right-side {
+  width: 586px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.right-side div {
+  flex-direction: column;
+}
+
+.right-side .article {
+  width: 240px;
+}
+
+.right-side .article img {
+  height: 128px;
+  width: 240px;
+  border-radius: 12px;
+}
+
+.right-side .article .description {
+  margin-top: 8px;
+}
+
+.right-side > div:nth-child(1) {
+  border-right: 1px #ebedef solid;
+}
+
+.right-side > div .article {
+  margin: 0 30px 25px 30px;
+}
+
+.right-side > div .article h2 {
+  color: #16ae54;
+}
+
+.right-side div:nth-child(2) .article {
+  margin-right: 0;
+}
+
+.right-side div:nth-child(2) .article h2 {
+  color: #ec8006;
+}
+
+.mobile {
+  display: none;
+  width: 480px;
+}
+
+.mobile-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-logo img {
+  margin: 10px 0 13px 0;
+}
+
+.mobile-navbar {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #ebedef solid;
+  border-bottom: 1px #ebedef solid;
+}
+
+.mobile-navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  height: 35px;
+  width: 380px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.mobile-content {
+  margin: 16px 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-article {
+  border-bottom: 1px #ebedef solid;
+}
+
+.main-article h1 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 7px;
+}
+
+.main-article h2 {
+  height: 58px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24.5px;
+  margin-bottom: 5px;
+}
+
+.secondary-articles a > div {
+  border-bottom: 1px #ebedef solid;
+}
+
+.secondary-articles div div {
+  margin-top: 20px;
+  display: flex;
+}
+
+.secondary-articles div div img {
+  width: 120px;
+  height: 67px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.secondary-articles div div h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.secondary-articles div p {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
