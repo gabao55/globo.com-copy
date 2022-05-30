@@ -148,9 +148,21 @@ a {
   color: #303134;
 }
 
+.left-side .article {
+  width: 193px;
+  margin-top: 25px;
+  margin-bottom: 36px;
+}
+
 .second-row {
   margin-right: 23px;
   border-bottom: 1px #ebedef solid;
+  justify-content: space-between;
+}
+
+.third-row {
+  margin-right: 23px;
+  justify-content: space-between;
 }
 
 .second-row p,
@@ -158,23 +170,8 @@ a {
   margin-top: 6px;
 }
 
-.left-side .article {
-  width: 193px;
-  margin-top: 25px;
-  margin-right: 24px;
-  margin-bottom: 36px;
-}
-
-.second-row .article:nth-child(3) {
-  margin-right: 0;
-}
-
 .third-row .article {
   margin-bottom: 0;
-}
-
-.third-row .article:nth-child(3) {
-  margin-right: 0;
 }
 
 .left-side .article img {
