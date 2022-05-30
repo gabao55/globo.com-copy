@@ -109,8 +109,13 @@ a {
   font-size: 19px;
 }
 
+.navbar ul li a:hover {
+  filter: brightness(1.6);
+}
+
 .content {
   width: 1250px;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 35px auto;
@@ -148,6 +153,11 @@ a {
   border-bottom: 1px #ebedef solid;
 }
 
+.second-row p,
+.third-row p {
+  margin-top: 6px;
+}
+
 .left-side .article {
   width: 193px;
   margin-top: 25px;
@@ -168,7 +178,7 @@ a {
 }
 
 .left-side .article img {
-  widows: 193px;
+  width: 193px;
   height: 110px;
   border-radius: 12px;
 }
