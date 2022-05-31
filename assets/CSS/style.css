@@ -204,24 +204,12 @@ a {
   margin-top: 8px;
 }
 
-.right-side > div:nth-child(1) {
-  border-right: 1px #ebedef solid;
-}
-
 .right-side > div .article {
   margin: 0 30px 25px 30px;
 }
 
 .right-side > div .article h2 {
   color: #16ae54;
-}
-
-.right-side div:nth-child(2) .article {
-  margin-right: 0;
-}
-
-.right-side div:nth-child(2) .article h2 {
-  color: #ec8006;
 }
 
 .mobile {
@@ -309,6 +297,18 @@ a {
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 20px;
+}
+
+.right-side > div:nth-child(1) {
+  border-right: 1px #ebedef solid;
+}
+
+.right-side div:nth-child(2) .article {
+  margin-right: 0;
+}
+
+.right-side div:nth-child(2) .article h2 {
+  color: #ec8006;
 }
 
 @media (max-width: 480px) {
