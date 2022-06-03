@@ -1,4 +1,4 @@
-<h1 align="center">Globo.com copy</h1>
+<h1 align="center">Globo.com clone</h1>
 
 <h2>Context</h2>
 
