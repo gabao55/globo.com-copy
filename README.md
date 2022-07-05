@@ -1,8 +1,8 @@
-<h1 align="center">Globo.com clone</h1>
+<h1 align="center">News website clone</h1>
 
 <h2>Context</h2>
 
-<p> First project developed for Driven Software Engineer bootcamp, you can check it out by this <a href="https://hf75e2.csb.app/">link</a>. The first module of the course was an introduction to Interfaces and Front-end Aplications, so we explored the main functionalities of HTML and CSS, so to consolidate knowledge the project task was to create a copy of the <a href="https://www.globo.com/">globo.com</a> webpage interface. The webpage might have suferred some updates, so you can check the project's prototypes below for desktop and mobile interfaces, plus access Figma prototypes by clicking the images:
+<p> First project developed for Driven Software Engineer bootcamp, you can check it out by this <a href="https://hf75e2.csb.app/">link</a>. The first module of the course was an introduction to Interfaces and Front-end Aplications, so we explored the main functionalities of HTML and CSS, so to consolidate knowledge the project task was to create a copy of a very famous brazilian news webpage interface. The webpage might have suferred some updates, so you can check the project's prototypes below for desktop and mobile interfaces, plus access Figma prototypes by clicking the images:
   
 <h3>Desktop webpage</h3>
 <p align="center">
